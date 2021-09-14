@@ -1,3 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 10px;
+}
 img{
     width: 60px;
+    vertical-align: middle;
+}
+.titolo{
+    display: inline-block; 
+}
+.background{
+    height: 800px;
+    background: rgba(201, 194, 194,0.2);
+}
+.white{
+    background-color: white;
+    
+}
+.align{
+    width: 80%;
+    height: 67px;
+    margin: 0 auto;
+    background-color: white;
+    padding-top: 30px;
+}
+.task, .section{
+    padding: 5px 5px;
+    text-align: center;
+    border-radius: 3px;
+}
+.task{
+    width: 70px;
+    background-color: rgb(35, 154, 223);
+    color: white;
+    margin-left: 40px;
+    border-color: rgb(35, 154, 223);
+    
+}
+.section{
+    width: 90px;
+    border-color: lightgray;
+}
+.task::placeholder{
+    color: white;
+}
+.section::placeholder{
+    color: lightgray;
+}
+.info{
+    width: 80%;
+    height: 800px;
+    background-color: white;
+    margin: auto;
+    margin-top: 5px;
+}
+.under-info{
+    height: 110px;
+    font-style:normal;
+    padding: 40px;
+}
+.letter{
+    margin-top: 20px;
+}
+.edit{
+    color: white;
+    margin-left: 6px;
+    font-size: 10px;
+    padding: 6px;
+    border-radius: 7px;
+    
+}
+#blue{
+    background-color: rgb(35, 154, 223);
+}
+h2{
+    display: inline-block;
+}
+.coming{
+    margin-top: 40px;
+}
+#violet{
+    background-color: violet;
+}
+#green{
+    background-color: green;
+}
+#orange{
+    background-color: orange;
+}
+#yellow{
+    background-color: rgb(199, 199, 79);
+}
+#celeste{
+    background-color: turquoise;
+}
+#violetto{
+    background-color: rgb(202, 57, 202);
 }
