@@ -1,3 +1,8 @@
+body{
+    background: rgba(201, 194, 194,0.2);
+    font-family: 'Roboto', sans-serif;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -30,7 +35,7 @@ img{
     padding-top: 30px;
 }
 .task, .section{
-    padding: 5px 5px;
+    padding: 5px 7px;
     text-align: center;
     border-radius: 3px;
 }
@@ -39,15 +44,26 @@ img{
     background-color: rgb(35, 154, 223);
     color: white;
     margin-left: 40px;
-    border-color: rgb(35, 154, 223);
-    
+    border: 1px solid rgb(35, 154, 223);
+    font-size: 12px;
+}
+
+.cross{
+    color: red;
+}
+.comma{
+    color: green;
 }
 .section{
+    font-size: 12px;
     width: 90px;
-    border-color: lightgray;
+    background-color: white;
+    border: 1px solid gray;
+    color: gray;
 }
 .task::placeholder{
     color: white;
+    
 }
 .section::placeholder{
     color: lightgray;
